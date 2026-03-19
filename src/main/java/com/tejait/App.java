@@ -6,7 +6,7 @@ public class App {
 		// TODO Auto-generated method stub
        System.out.println("Welcome ...");
        
-       // Constructor injection
+       // constructor injection
        // Car car = new Car(new PetrolEngine());
        // car.drive();
        
@@ -14,6 +14,7 @@ public class App {
        // car.drive();
        
         Car car = new Car();
+		// setter injection
         car.setEngine(new DieselEngine());
         car.drive();
 
